@@ -29,7 +29,6 @@ package src
 			addChild(_player);
 			addChild(_opponent);
 			BackgroundFullScreen();
-			//stage.addEventListener(Event.ENTER_FRAME, loop);
 		}
 		
 		function BackgroundFullScreen() 
@@ -39,10 +38,5 @@ package src
 			_background.width = stage.stageWidth;
 			_background.height = stage.stageHeight;
 		} 
-		
-		/*function loop(e:Event):void
-		{
-			
-		}*/
 	}
 }
